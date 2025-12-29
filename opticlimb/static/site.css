@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50vh;
+}
+
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    header, footer {
+        background-color: #1e1e1e;
+    }
+
+    a {
+        color: #66aaff;
+    }
+}

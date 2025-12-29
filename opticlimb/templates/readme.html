@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block subtitle %}
+    <h2>Readme</h2>
+    <a href="{{ url_for('main.root') }}">Main</a>
+{% endblock %}
+
+
+{% block content %}
+    <p>This project scrapes and stores the data from the opticlimb API into a database. And provides a dashboard view onto the database.</p>
+{% endblock %}
