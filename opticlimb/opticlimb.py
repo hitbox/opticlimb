@@ -2,7 +2,7 @@ import argparse
 
 import requests
 
-production_authentication_url = 'https://www.opti-climb.com/{trigram}/ws/login/basic'
+production_authentication_url = 'https://www.opti-climb.fr/{trigram}/ws/login/basic'
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
