@@ -13,3 +13,4 @@ class OpticlimbSchema(Schema):
     flight_data_available = Boolean(data_key='flightDataAvailable')
     adherence = Boolean()
     potential_saving = Integer(data_key='potentialSaving')
+    effective_saving = Integer(data_key='effectiveSaving', required=False)

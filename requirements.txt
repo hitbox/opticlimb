@@ -5,3 +5,4 @@ marshmallow
 psycopg
 requests
 sqlalchemy
+truststore
